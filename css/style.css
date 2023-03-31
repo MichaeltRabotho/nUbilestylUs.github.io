@@ -1,0 +1,37 @@
+.firstline {
+color: lightBlue;
+text-align: center;
+}
+
+body {
+background-color: black;
+hight: 100%;
+width: 100%;
+}
+
+.bg-image {
+  position: relative;
+  max-width: 900px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+max-height: 4500px;
+}
+
+.bg-image .text-head:hover {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: skyBlue; /* grey background with 0.5 opacity */
+opacity: 0.55;
+  color: babyBlue; /* Gold text */
+  width: 95%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.arrow {
+color: red;
+font-size: 50px;}
+
+.touch {
+color: red;
+font-size: 50px;
+}
